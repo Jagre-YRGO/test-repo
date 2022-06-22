@@ -10,18 +10,19 @@ component mega_quiz is
 	port
 	(
       clk : in std_logic;
-      q :   out std_logic_vector(3 downto 0)
+      d :   in std_logic;
+      q :   out std_logic
 	);
 end component;
 
 signal k_s : std_logic := '0';
-signal q_s   : std_logic_vector(3 downto 0);
+signal d_s,q_s   : std_logic;
 		
 begin
 
   --instantiate unit under test
 uut : mega_quiz
-	port map(k_s, q_s);
+	port map(k_s, d_s, q_s);
 
 process
 begin
