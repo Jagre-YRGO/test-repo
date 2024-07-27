@@ -17,6 +17,8 @@ end component;
 
 signal k_s : std_logic := '0';
 signal d_s,q_s   : std_logic;
+
+
 		
 begin
 
