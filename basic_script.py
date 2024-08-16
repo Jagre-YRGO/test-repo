@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-print('welcome - from github python-script')
+print('welcome2 - from github python-script')
 
 
 frekv_sin = 50
